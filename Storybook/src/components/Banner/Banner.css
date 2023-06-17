@@ -1,0 +1,49 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  opacity: 1;
+  column-gap: 48px;
+  margin-top: 32px;
+  padding: 2px;
+}
+
+.success {
+  background-color: rgba(0, 128, 0, 0.443);
+  border-top: 5px solid green;
+}
+
+.warning {
+  background-color: rgba(128, 75, 0, 0.486);
+  border-top: 5px solid orange;
+}
+
+.error {
+  background-color: rgba(128, 0, 0, 0.486);
+  border-top: 5px solid tomato;
+}
+
+.info {
+  background-color: rgba(0, 4, 128, 0.411);
+  border-top: 5px solid rgb(0, 55, 255);
+}
+
+.banner.title {
+  color: black;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.banner.banner-icon {
+  width: 36px;
+}
+
+.banner-section {
+  display: inline;
+  display: flex;
+}
+
+.banner p {
+  margin: 5px;
+}
